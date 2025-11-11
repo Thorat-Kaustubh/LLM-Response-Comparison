@@ -23,7 +23,10 @@ The **LLM Response Comparison Dashboard** provides a simple and powerful way to 
 
 It’s built for **AI researchers, NLP developers, and prompt engineers** who want to measure — not guess — how prompts influence model performance.
 
-!
+<p align="center">
+  <img src="image1.jpg"  width="600"><br><br>
+  <img src="image2.jpg" width="600">
+</p>
 
 ---
 
