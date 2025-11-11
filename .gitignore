@@ -1,0 +1,9 @@
+# .gitignore
+
+# Ignore Streamlit secrets
+.streamlit/secrets.toml
+
+# Ignore Python cache and environment files
+__pycache__/
+*.pyc
+.venv/
