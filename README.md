@@ -81,3 +81,41 @@ This project provides a visual and analytical way to:
 ```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 cd YOUR_REPO_NAME
+
+
+### 🧩 Step 2 — Install Dependencies
+pip install -r requirements.txt
+
+###🔑 Step 3 — Configure API Key
+Create .streamlit/secrets.toml and add your Gemini API key:
+
+# .streamlit/secrets.toml
+GEMINI_API_KEY = "YOUR_API_KEY_GOES_HERE"
+
+###▶️ Step 4 — Run the App
+streamlit run app_frontend.py
+
+Then open your browser and visit 👉 http://localhost:8501
+
+## 🎯 **How to Use**
+
+Enter User Prompt:
+Example — “Explain quantum entanglement.”
+
+Enter System Prompt:
+Example — “You are a physics professor. Explain simply.”
+
+Click “Compare Responses.”
+
+Analyze Results:
+
+View both responses side-by-side
+
+Review token and character metrics
+
+Read the automated insights to see which version performs better
+
+
+🏷️ License
+
+This project is licensed under the MIT License — see the LICENSE file for details.
