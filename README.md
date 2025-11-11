@@ -99,23 +99,33 @@ Then open your browser and visit 👉 http://localhost:8501
 
 ## 🎯 **How to Use**
 
-Enter User Prompt:
-Example — “Explain quantum entanglement.”
+Follow these simple steps to interact with the **LLM Response Comparison Dashboard**:
 
-Enter System Prompt:
-Example — “You are a physics professor. Explain simply.”
-
-Click “Compare Responses.”
-
-Analyze Results:
-
-View both responses side-by-side
-
-Review token and character metrics
-
-Read the automated insights to see which version performs better
+1. **🧠 Enter User Prompt**  
+     Type your main query for the LLM.  
+    _Example:_  
+  Explain quantum entanglement.
 
 
-🏷️ License
+2. **🎓 Enter System Prompt**  
+    Provide contextual or role-based instructions for the model.  
+    _Example:_  
+    You are a physics professor. Explain simply.
 
-This project is licensed under the MIT License — see the LICENSE file for details.
+
+3. **⚡ Click “Compare Responses”**  
+The app will generate and display both responses — one for the user prompt alone and one for the system + user prompt combination.
+
+4. **📊 Analyze Results**  
+- View both responses **side-by-side** for easy comparison  
+- Review **token count**, **character length**, and **finish reason**  
+- Read **automated insights** that summarize which version is more detailed, concise, or efficient  
+
+---
+
+## 🏷️ **License**
+
+This project is licensed under the **MIT License**.  
+See the [LICENSE](LICENSE) file for complete details.
+
+> © 2025 **Kaustubh Thorat** — All rights reserved.
